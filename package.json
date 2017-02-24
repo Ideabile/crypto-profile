@@ -1,0 +1,17 @@
+{
+  "name": "crypto-profile",
+  "version": "1.0.0",
+  "description": "Create profile file with the power of the encryption",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "Mauro Mandracchia <info@ideabile.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cryptlib": "^1.0.3",
+    "inquirer": "^3.0.3",
+    "jasmine": "^2.5.3",
+    "jsonfile": "^2.4.0"
+  }
+}
