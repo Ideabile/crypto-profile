@@ -1,11 +1,13 @@
 # Crypto Profile
 
-Profile files with the power of encryption
+Creates and Manage profile files (`~/.myAppName`) with the power of encryption.
+Useful for store settings for CLI or just Apps.
+
 
 ## Installation
 
 ```
-npm install cryptoprofile
+npm install crypto-profile
 ```
 
 ## Usage
@@ -17,13 +19,13 @@ If you would use in interactive mode be aware that the code would ask for passwo
 
 **Interactive**
 ```
-const profile = new require('cryptoprofile')('myAppName')
+const profile = new require('crypto-profile')('myAppName')
 ```
 If the file _~/.myAppName_ doesn't exists would be create, the user would be ask for a password.
 
 **Not Interactive**
 ```
-const profile = new require('cryptoprofile')('myAppName', {interactive: false, password: 'someRandPassword'})
+const profile = new require('crypto-profile')('myAppName', {interactive: false, password: 'someRandPassword'})
 ```
 
 ---
