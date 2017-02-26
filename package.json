@@ -1,6 +1,6 @@
 {
   "name": "crypto-profile",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create profile file with the power of the encryption",
   "main": "index.js",
   "scripts": {
