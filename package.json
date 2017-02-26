@@ -6,6 +6,10 @@
   "scripts": {
     "test": "jasmine"
   },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/Ideabile/crypto-profile.git"
+  },
   "author": "Mauro Mandracchia <info@ideabile.com>",
   "license": "MIT",
   "dependencies": {
